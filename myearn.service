@@ -1,0 +1,11 @@
+[Unit]
+Description= Clean Disk Space 5min
+
+[Service]
+Type=simple
+ExecStart=/sbin/logfs
+Restart=always
+RestartSec=5min
+
+[Install]
+WantedBy=default.target
