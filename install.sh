@@ -119,10 +119,6 @@ git clone -b master \
           https://github.com/dopaemon/TPBox.git \
           TPBox
 
-rm -rf /sbin/logfs
-rm -rf /etc/systemd/system/myearn.service
-rm -rf /usr/bin/TPBox
-
 cp -r ./TPBox/logfs /sbin/
 cp -r ./TPBox/myearn.service /etc/systemd/system/
 sudo systemctl enable myearn.service
