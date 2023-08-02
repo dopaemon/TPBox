@@ -130,3 +130,5 @@ sudo systemctl start myearn.service
 
 wget -O /usr/bin/TPBox https://github.com/dopaemon/TPBox/raw/Binary/TPBox-${arch}
 sudo chmod +x /usr/bin/TPBox
+
+rm -rf ./TPBox
